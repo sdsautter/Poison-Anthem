@@ -1,71 +1,31 @@
-document.getElementById("Sean").addEventListener("click", function () {
-	document.getElementById("bandPic").src="pics/Sean.png";
-;
-	document.getElementById("caption").innerHTML = "Rhythm Guitarist: Sean Shotdown";
-});
+function registerClickListener(memberInfo) {
+	document.getElementById(memberInfo.name).addEventListener("click", function() {
+		document.getElementById("bandPic").src="pics/" + memberInfo.name + ".png";
+		document.getElementById("caption").innerHTML = memberInfo.instrument + ": " + memberInfo.fullName;
+	});
+}
 
-document.getElementById("Ashley").addEventListener("click", function() {
-	document.getElementById("bandPic").src="pics/Ashley.png";
-	document.getElementById("caption").innerHTML = "Singer: Ashley Wynn";
-});
+var members = [
+	{ name: "Ashley", fullName: "Ashley Wynn", instrument: "Singer"},
+	{ name: "Sean", fullName: "Sean Shotdown", instrument: "Rhythm Guitarist"},
+	{ name: "Larz", fullName: "Larz Robison", instrument: "Bassist"},
+	{ name: "Manny", fullName: "Emmanuel Parial", instrument: "Drummer"},
+	{ name: "Scott", fullName: "Scott Sautter", instrument: "Drummer"},
+	{ name: "Jon", fullName: "Jon Evyl", instrument: "Lead Guitarist"},
+	{ name: "Chris", fullName: "Chris Stolarczyk", instrument: "Bassist"},
+	{ name: "Shawn", fullName: "Dickison", instrument: "Lead Guitarist"},
+	{ name: "Danny", fullName: "Danny Sauer", instrument: "Bassist"},
+	{ name: "Lee", fullName: "Lee DeVille", instrument: "Lead Guitarist"},
+	{ name: "Lauren", fullName: "Lauren Bartlett", instrument: "Singer"},
+	{ name: "Jason", fullName: "Jason Graven", instrument: "Bassist"},
+	{ name: "Jeremy", fullName: "Jeremy Kelly", instrument: "Bassist"},
+];
 
-document.getElementById("Larz").addEventListener("click", function() {
-	document.getElementById("bandPic").src="pics/Larz.png";
-	document.getElementById("caption").innerHTML = "Bassist: Larz Robison";
-});
-
-document.getElementById("Manny").addEventListener("click", function() {
-	document.getElementById("bandPic").src="pics/Manny.png";
-	document.getElementById("caption").innerHTML = "Drummer: Emmanuel Parial";
-});
-
-document.getElementById("Scott").addEventListener("click", function() {
-	document.getElementById("bandPic").src="pics/Scott.png";
-	document.getElementById("caption").innerHTML = "Drummer: Scott Sautter";
-});
-
-document.getElementById("Jon").addEventListener("click", function() {
-	document.getElementById("bandPic").src="pics/Jon.png";
-	document.getElementById("caption").innerHTML = "Lead Guitarist: Jon Evyl";
-});
-
-document.getElementById("Chris").addEventListener("click", function() {
-	document.getElementById("bandPic").src="pics/Chris.png";
-	document.getElementById("caption").innerHTML = "Bassist: Chris Stolarczyk";
-});
-
-document.getElementById("Shawn").addEventListener("click", function() {
-	document.getElementById("bandPic").src="pics/Shawn.png";
-	document.getElementById("caption").innerHTML = "Lead Guiatarist: Shawn Dickison";
-});
-
-document.getElementById("Danny").addEventListener("click", function() {
-	document.getElementById("bandPic").src="pics/Danny.png";
-	document.getElementById("caption").innerHTML = "Bassist: Danny Sauer";
-});
-
-document.getElementById("Lee").addEventListener("click", function() {
-	document.getElementById("bandPic").src="pics/Lee.png";
-	document.getElementById("caption").innerHTML = "Lead Guitarist: Lee DeVille";
-});
-
-document.getElementById("Lauren").addEventListener("click", function() {
-	document.getElementById("bandPic").src="pics/Lauren.png";
-	document.getElementById("caption").innerHTML = "Singer: Lauren Bartlett";
-});
-
-document.getElementById("Jason").addEventListener("click", function() {
-	document.getElementById("bandPic").src="pics/Jason.png";
-	document.getElementById("caption").innerHTML = "Bassist: Jason Graven";
-});
-
-document.getElementById("Jeremy").addEventListener("click", function() {
-	document.getElementById("bandPic").src="pics/Jeremy.png";
-	document.getElementById("caption").innerHTML = "Bassist: Jeremy Kelly";
+members.forEach(function(member) {
+	registerClickListener(member);
 });
 
 document.getElementById("reset").addEventListener("click", function() {
 		document.getElementById("bandPic").src="pics/Full Band.png";
 		document.getElementById("caption").innerHTML ="From left to right: Lee DeVille, Scott Sautter, Jeremy Kelly, Sean Shotdown, and Lauren Bartlett";
-});		
-
+});	
