@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Creepster|Freckle+Face|Frijole|Kaushan+Script|Luckiest+Guy|Nosifer|Rock+Salt');
+/* This imports the google fonts that can be used like so:
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Bangers', cursive;
+    font-family: 'Rock Salt', cursive;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Freckle Face', cursive;
+    font-family: 'Creepster', cursive;
+    font-family: 'Frijole', cursive;
+    font-family: 'Nosifer', cursive;
+*/    
+
+<style>
+
+
+/*table on members page */
+    table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: center;
+            padding: 8px;
+        }
+
+        th {
+            background-color: black;
+            color: white;
+            font-family: 'Frijole', cursive;
+            font-size: 80%;
+        }
+
+        .th-big {
+            width:750px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+
+/*header nav bar */
+    nav {
+        text-align: center;
+        margin: 0 2px;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav a {
+        font-size: 20px;
+        font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+        text-align: center;
+        margin: 0 2px;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .head {
+        font-family: 'Nosifer', cursive;        
+        font-size: 45px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 500;
+        line-height: 23px;
+        text-align: center;
+    } 
+
+    .caption, header {
+        text-align: center;
+
+    }
+/* image on index */
+    .faceLogo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 60px;
+    }
+
+/* buttons on member page */
+    .reset {
+        
+        margin  : 5px auto;
+        display : block;
+        background-color:#dddddd;
+        color:black; 
+    }
+
+    button {
+        display: inline-block;    
+        font-size: 15px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #000000;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 4px #999;
+    }
+
+    button:active {
+        background-color: #525E1B;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+    
+    .bandPic {
+        max-height: 440px;
+        background-color: black;
+        color: white;
+    }
+
+    .link {
+        font-size: 115%;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: 'Nosifer', cursive;
+    }
+ /* images on bio page */
+    .left-image {
+        float:left;
+        padding:7px;
+    }
+
+    .right-image {
+        float:right;
+        padding:7px;
+    }
+
+    /* indents paragraph */
+    p { 
+        text-indent: 40px;
+        padding: 5px;
+    }
+
+    html {
+        height: 100%;
+    }
+    body {
+        background: #21A3B1;
+        font-family: helvetica;
+        min-height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* This is for the sticy footer */
+    .content {
+        flex: 1;
+    }
+
+/* album and video divs for music page */
+
+    .album {
+        float: left;
+        height: 100%;
+        padding: 10px;
+    }
+
+    
+    .video {
+        float: right;
+        height: 100%;
+        width: auto;
+        padding: 10px;
+    }
+    
+/*to center youtube vid in div */
+
+    .demonsvideo {
+        display: table;
+        margin: 0 auto;
+    }
+
+    .promo-pic {
+        display: table;
+        margin: 0 auto;
+        padding-top:50px;
+        width: 100%;
+    }
+    
+    .date-entry {
+        text-align: center;
+        font-size: 110%;
+        text-decoration: underline;
+    }
+
+    .news {
+        background-color: black;
+        color:white;
+        border: 1px dotted red;
+        margin: 15px 15% 15px 15%;
+        text-align: justify;
+        padding:3px;
+    }
+
+    header {
+        position: fixed;
+        background-color: black;
+        width:100%;
+        top:0;
+        left:0;
+        height:50px;
+    }
+
+    .music-h {
+        text-align: center;
+        font-family: 'Frijole', cursive;
+        font-size: 90%; 
+
+    }
+    
+
+    .contacth2 {
+        padding: 10px;
+        font-family: 'Frijole', cursive;
+        text-align: center;
+    }
+
+
+    .social {
+        display: table;
+        margin: 0 auto;
+        font-size: 115%;
+    }
+
+
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        width:100%;
+        left:0;
+        bottom:0;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+</style>
