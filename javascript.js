@@ -13,7 +13,7 @@ var members = [
 	{ name: "Scott", fullName: "Scott Sautter", instrument: "Drummer"},
 	{ name: "Jon", fullName: "Jon Evyl", instrument: "Lead Guitarist"},
 	{ name: "Chris", fullName: "Chris Stolarczyk", instrument: "Bassist"},
-	{ name: "Shawn", fullName: "Dickison", instrument: "Lead Guitarist"},
+	{ name: "Shawn", fullName: "Shawn Dickison", instrument: "Lead Guitarist"},
 	{ name: "Danny", fullName: "Danny Sauer", instrument: "Bassist"},
 	{ name: "Lee", fullName: "Lee DeVille", instrument: "Lead Guitarist"},
 	{ name: "Lauren", fullName: "Lauren Bartlett", instrument: "Singer"},
