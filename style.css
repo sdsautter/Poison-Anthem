@@ -64,6 +64,10 @@
         background-color: #333333;
     }
 
+    .current-nav {
+        background-color: #333333;
+    }
+
     .head {
         font-family: 'Nosifer', cursive;        
         font-size: 45px;
