@@ -1,3 +1,5 @@
+
+
 function registerClickListener(memberInfo) {
 	document.getElementById(memberInfo.name).addEventListener("click", function() {
 		document.getElementById("bandPic").src="pics/" + memberInfo.name + ".png";

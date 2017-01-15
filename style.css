@@ -41,6 +41,14 @@
             background-color: #dddddd;
         }
 
+        .shows-table {
+            padding-left: 1%;
+            padding-right: 1%;
+        }
+        .shows-venue {
+            width: 300px;
+        }
+
 /*header nav bar */
     nav {
         text-align: center;
@@ -60,12 +68,77 @@
         justify-content: space-around;
     }
 
-    nav a:hover {
-        background-color: #333333;
+    .news-nav {
+        background-image: url("pics/news white.png");
+        display: block;
+        height: 25px;
+        text-indent: -9999px;
+        width: 130px;
     }
 
-    .current-nav {
-        background-color: #333333;
+    .news-nav:hover {
+        background-image: url("pics/news gray.png");
+        
+    }
+
+    .bio-nav {
+        background-image: url("pics/bio white.png");
+        display: block;
+        height: 25px;
+        text-indent: -9999px;
+        width: 130px;
+    }
+
+    .bio-nav:hover {
+        background-image: url("pics/bio gray.png");
+    }
+
+    .members-nav {
+        background-image: url("pics/members white.png");
+        display: block;
+        height: 25px;
+        text-indent: -9999px;
+        width: 130px;
+    }
+
+    .members-nav:hover {
+        background-image: url("pics/members gray.png");
+    }
+
+    .shows-nav {
+        background-image: url("pics/shows white.png");
+        display: block;
+        height: 25px;
+        text-indent: -9999px;
+        width: 130px;
+    }
+
+    .shows-nav:hover {
+        background-image: url("pics/shows gray.png");
+    }
+
+    .music-nav {
+        background-image: url("pics/music white.png");
+        display: block;
+        height: 25px;
+        text-indent: -9999px;
+        width: 130px;
+    }
+
+    .music-nav:hover {
+        background-image: url("pics/music gray.png");    
+    }
+
+    .contact-nav {
+        background-image: url("pics/contact white.png");
+        display: block;
+        height: 25px;
+        text-indent: -9999px;
+        width: 130px;   
+    }
+
+    .contact-nav:hover {
+        background-image: url("pics/contact gray.png");
     }
 
     .head {
@@ -156,6 +229,7 @@
 
     html {
         height: 100%;
+        overflow-y: scroll;
     }
 
     body {
