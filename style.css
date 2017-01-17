@@ -210,6 +210,11 @@
         text-align: center;
         font-family: 'Nosifer', cursive;
     }
+
+    h3 {
+        text-align: center;
+            font-family: 'Frijole', cursive;
+    }
  /* images on bio page */
     .left-image {
         float:left;
@@ -322,7 +327,7 @@
     }
 
 
-    footer {
+    footer, footer a {
         background-color: black;
         color: white;
         text-align: center;
@@ -331,6 +336,7 @@
         bottom:0;
         padding-top: 5px;
         padding-bottom: 5px;
+        text-decoration: none;
     }
 
 </style>
