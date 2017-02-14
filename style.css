@@ -69,7 +69,6 @@
     }
 
     .news-nav {
-        background-image: url("pics/News White.png");
         display: block;
         height: 25px;
         text-indent: -9999px;
@@ -82,7 +81,7 @@
     }
 
     .bio-nav {
-        background-image: url("pics/Bio White.png");
+        background-image: url("pics/Bio-White.png");
         display: block;
         height: 25px;
         text-indent: -9999px;
