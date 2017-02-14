@@ -69,6 +69,7 @@
     }
 
     .news-nav {
+        background-image: url("pics/News-White.png");
         display: block;
         height: 25px;
         text-indent: -9999px;
@@ -76,7 +77,7 @@
     }
 
     .news-nav:hover {
-        background-image: url("pics/News Gray.png");
+        background-image: url("pics/News-Gray.png");
         
     }
 
@@ -89,11 +90,11 @@
     }
 
     .bio-nav:hover {
-        background-image: url("pics/Bio Gray.png");
+        background-image: url("pics/Bio-Gray.png");
     }
 
     .members-nav {
-        background-image: url("pics/Members White.png");
+        background-image: url("pics/Members-White.png");
         display: block;
         height: 25px;
         text-indent: -9999px;
@@ -101,11 +102,11 @@
     }
 
     .members-nav:hover {
-        background-image: url("pics/Members Gray.png");
+        background-image: url("pics/Members-Gray.png");
     }
 
     .shows-nav {
-        background-image: url("pics/Shows White.png");
+        background-image: url("pics/Shows-White.png");
         display: block;
         height: 25px;
         text-indent: -9999px;
@@ -113,11 +114,11 @@
     }
 
     .shows-nav:hover {
-        background-image: url("pics/Shows Gray.png");
+        background-image: url("pics/Shows-Gray.png");
     }
 
     .music-nav {
-        background-image: url("pics/Music White.png");
+        background-image: url("pics/Music-White.png");
         display: block;
         height: 25px;
         text-indent: -9999px;
@@ -125,11 +126,11 @@
     }
 
     .music-nav:hover {
-        background-image: url("pics/Music Gray.png");    
+        background-image: url("pics/Music-Gray.png");    
     }
 
     .contact-nav {
-        background-image: url("pics/Contact White.png");
+        background-image: url("pics/Contact-White.png");
         display: block;
         height: 25px;
         text-indent: -9999px;
@@ -137,7 +138,7 @@
     }
 
     .contact-nav:hover {
-        background-image: url("pics/Contact Gray.png");
+        background-image: url("pics/Contact-Gray.png");
     }
 
     .head {
