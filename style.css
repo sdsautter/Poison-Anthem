@@ -82,7 +82,7 @@
     }
 
     .bio-nav {
-        background-image: url("pics/bio white.png");
+        background-image: url("pics/Bio White.png");
         display: block;
         height: 25px;
         text-indent: -9999px;
@@ -90,11 +90,11 @@
     }
 
     .bio-nav:hover {
-        background-image: url("pics/bio gray.png");
+        background-image: url("pics/Bio Gray.png");
     }
 
     .members-nav {
-        background-image: url("pics/members white.png");
+        background-image: url("pics/Members White.png");
         display: block;
         height: 25px;
         text-indent: -9999px;
@@ -102,11 +102,11 @@
     }
 
     .members-nav:hover {
-        background-image: url("pics/members gray.png");
+        background-image: url("pics/Members Gray.png");
     }
 
     .shows-nav {
-        background-image: url("pics/shows white.png");
+        background-image: url("pics/Shows White.png");
         display: block;
         height: 25px;
         text-indent: -9999px;
@@ -114,11 +114,11 @@
     }
 
     .shows-nav:hover {
-        background-image: url("pics/shows gray.png");
+        background-image: url("pics/Shows Gray.png");
     }
 
     .music-nav {
-        background-image: url("pics/music white.png");
+        background-image: url("pics/Music White.png");
         display: block;
         height: 25px;
         text-indent: -9999px;
@@ -126,11 +126,11 @@
     }
 
     .music-nav:hover {
-        background-image: url("pics/music gray.png");    
+        background-image: url("pics/Music Gray.png");    
     }
 
     .contact-nav {
-        background-image: url("pics/contact white.png");
+        background-image: url("pics/Contact White.png");
         display: block;
         height: 25px;
         text-indent: -9999px;
@@ -138,7 +138,7 @@
     }
 
     .contact-nav:hover {
-        background-image: url("pics/contact gray.png");
+        background-image: url("pics/Contact Gray.png");
     }
 
     .head {
